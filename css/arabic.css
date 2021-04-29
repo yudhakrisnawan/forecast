@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Uthmani';
-  src : url('http://localhost/alquran/font/UthmanicHafs1 Ver09.otf') format('truetype');
+  src : url('../font/UthmanicHafs1 Ver09.otf') format('truetype');
 }
 
 h3{
