@@ -2,58 +2,37 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Bisa Ngaji</title>
-
-    <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-
-    <!-- Custom styles for this template-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
+    <link href="css/arabic.css" rel="stylesheet" >
 </head>
 
 <body id="page-top">
-
-    <!-- Page Wrapper -->
     <div id="wrapper">
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">Bisa Ngaji</div>
             </a>
-
-            <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="beranda.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Beranda</span></a>
+                    <span>Beranda</span>
+                </a>
             </li>
-
-            <!-- Divider -->
             <hr class="sidebar-divider">
-
-            <!-- Heading -->
-
-            <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
                     aria-expanded="true" aria-controls="collapseSatu">
@@ -68,8 +47,6 @@
                     </div>
                 </div>
             </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDua"
                     aria-expanded="true" aria-controls="collapseDua">
@@ -85,7 +62,6 @@
                     </div>
                 </div>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTiga"
                     aria-expanded="true" aria-controls="collapseTiga">
@@ -96,13 +72,11 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="surat1.html">Al-Fatihah</a>
-                        <a class="collapse-item" href="surat2.html">Al-Ikhlas</a>
-                        <a class="collapse-item" href="surat3.html">An-Naas</a>
+                        <a class="collapse-item" href="surat2.html">Ad-Duha</a>
+                        <a class="collapse-item" href="surat3.html">Asy-Syams</a>
                     </div>
                 </div>
             </li>
-
-
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
@@ -110,37 +84,22 @@
                     <span>Video belajar mengaji</span>
                 </a>
             </li>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-
-            <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
         </ul>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-
-            <!-- Main Content -->
             <div id="content">
-
+                  
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
-
-                    <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
-
                         <div class="topbar-divider d-none d-sm-block"></div>
-
-                        <!-- Nav Item - User Information -->
+                        
+                        <!-- Informasi User -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -148,7 +107,8 @@
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
-                            <!-- Dropdown - User Information -->
+                            
+                            <!-- Dropdown User -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
@@ -156,90 +116,151 @@
                                     User Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="index.html" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
                             </div>
                         </li>
-
                     </ul>
-
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
-
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Beranda</h1>
-                    </div>
-
-                    <!-- Content Row -->
-
             <!-- Content -->
-            
+            <div class="container-fluid">
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Surat-surat pendek</h1>
+                </div>
+                <section class="mar-top--x-3 mar-bottom--x-5">
+                    <div class="container">
+                        <div class="tab-content terms-tab-content fsize-m-2">
+                            <div id="faq-collapse">
+                                <div class="kad">
+                                    <div class="kad">
+                                        <h4 class="judul" align="center">Asy-Syams</h4>
+                                        <p class ="arabic_center">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>                    
+                                    </div>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَالشَّمْسِ وَضُحَاهَا ﴿<span class="arabic_number">١</span>﴾</p>                        
+                                        <p class ="latin">[1] Demi matahari dan cahayanya di pagi hari,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَالْقَمَرِ إِذَا تَلَاهَا ﴿<span class="arabic_number">٢</span>﴾</p>                        
+                                        <p class ="latin">[2] dan bulan apabila mengiringinya,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَالنَّهَارِ إِذَا جَلَّاهَا ﴿<span class="arabic_number">٣</span>﴾</p>                        
+                                        <p class ="latin">[3] dan siang apabila menampakkannya,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَاللَّيْلِ إِذَا يَغْشَاهَا ﴿<span class="arabic_number">٤</span>﴾</p>                        
+                                        <p class ="latin">[4] dan malam apabila menutupinya,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَالسَّمَاءِ وَمَا بَنَاهَا ﴿<span class="arabic_number">٥</span>﴾</p>                        
+                                        <p class ="latin">[5] dan langit serta pembinaannya,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَالْأَرْضِ وَمَا طَحَاهَا ﴿<span class="arabic_number">٦</span>﴾</p>                        
+                                        <p class ="latin">[6] dan bumi serta penghamparannya,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَنَفْسٍ وَمَا سَوَّاهَا ﴿<span class="arabic_number">٧</span>﴾</p>                        
+                                        <p class ="latin">[7] dan jiwa serta penyempurnaannya (ciptaannya),</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا ﴿<span class="arabic_number">٨</span>﴾</p>                        
+                                        <p class ="latin">[8] maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya.</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">قَدْ أَفْلَحَ مَنْ زَكَّاهَا ﴿<span class="arabic_number">٩</span>﴾</p>                        
+                                        <p class ="latin">[9] sesungguhnya beruntunglah orang yang mensucikan jiwa itu,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَقَدْ خَابَ مَنْ دَسَّاهَا ﴿<span class="arabic_number">١٠</span>﴾</p>                        
+                                        <p class ="latin">[10] dan sesungguhnya merugilah orang yang mengotorinya.</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا ﴿<span class="arabic_number">١١</span>﴾</p>                        
+                                        <p class ="latin">[11] (Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">إِذِ انْبَعَثَ أَشْقَاهَا ﴿<span class="arabic_number">١٢</span>﴾</p>                        
+                                        <p class ="latin">[12] ketika bangkit orang yang paling celaka di antara mereka,</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا ﴿<span class="arabic_number">١٣</span>﴾</p>                        
+                                        <p class ="latin">[13] lalu Rasul Allah (Saleh) berkata kepada mereka: ("Biarkanlah) unta betina Allah dan minumannya".</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا ﴿<span class="arabic_number">١٤</span>﴾</p>                        
+                                        <p class ="latin">[14] Lalu mereka mendustakannya dan menyembelih unta itu, maka Tuhan mereka membinasakan mereka disebabkan dosa mereka, lalu Allah menyama-ratakan mereka (dengan tanah),</p>                    
+                                    </div>
+                                    <br>
+                                    <div class="kad kad--padding kad--path">
+                                        <p class ="arabic">وَلَا يَخَافُ عُقْبَاهَا ﴿<span class="arabic_number">١٥</span>﴾</p>                        
+                                        <p class ="latin">[15] dan Allah tidak takut terhadap akibat tindakan-Nya itu.</p>                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </section>
+            </div>
+            <br>
             <!-- End of Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="sticky-footer bg-light-grey">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Kelompok 4</span>
                     </div>
                 </div>
             </footer>
-            <!-- End of Footer -->
-
         </div>
-        <!-- End of Content Wrapper -->
-
     </div>
-    <!-- End of Page Wrapper -->
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Logout Modal-->
+    <!-- Logout-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Ingin keluar?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Pilih "Keluar" jika ingin meninggalkan halaman.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="index.html">Logout</a>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                    <a class="btn btn-success" href="index.html">Keluar</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript-->
+    <!-- JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
-
 </body>
-
 </html>
