@@ -32,7 +32,20 @@
                     <span>Beranda</span>
                 </a>
             </li>
-            <hr class="sidebar-divider">
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNol"
+                    aria-expanded="true" aria-controls="collapseNol">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Mengenal hijaiyah</span>
+                </a>
+                <div id="collapseNol" class="collapse" aria-labelledby="headingNol" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="hijaiyah1.html">Huruf hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah2.html">Cara membaca hijaiyah</a>
+                        <a class="collapse-item" href="hijaiyah3.html">Angka hijaiyah</a>
+                    </div>
+                </div>
+            </li>
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSatu"
                     aria-expanded="true" aria-controls="collapseSatu">
@@ -134,242 +147,14 @@
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Huruf Hijaiyah</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Iqro</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
-                    <div class="card shadow mb-4">
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead align="center">
-                                        <tr>
-                                            <th>No.</th>
-                                            <th>Huruf</th>
-                                            <th>Bacaan</th>
-                                            <th>Penulisan Huruf Latin</th>
-                                            <th>Cara Membaca</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody align="center">
-                                        <tr>
-                                            <td>1</td>
-                                            <td><p class ="arabic_center">ا</p></td>
-                                            <td>Alif</td>
-                                            <td> tidak dilambangkan</td>
-                                            <td>Melambangkan bunyi panjang untuk baris fathah sebelumnya</td>
-                                        </tr>
-                                         <tr>
-                                            <td>2</td>
-                                            <td><p class ="arabic_center">ب</p></td>
-                                            <td>Ba’</td>
-                                            <td>B</td>
-                                            <td>Ba-Bi-Bu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td><p class ="arabic_center">ت</p></td>
-                                            <td>Ta’</td>
-                                            <td>T</td>
-                                            <td>Ta-Ti-Tu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td><p class ="arabic_center">ث</p></td>
-                                            <td>Tsa’</td>
-                                            <td>TS</td>
-                                            <td>Tsa-Tsi-Tsu</td> 
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td><p class ="arabic_center">ج</p></td>
-                                            <td>Jim</td>
-                                            <td>J</td>
-                                            <td>Ja-Ji-Ju</td>
-                                        </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td><p class ="arabic_center">ح</p></td>
-                                            <td>Ḥa’</td>
-                                            <td>Ḥ</td>
-                                            <td>Ḥa- Ḥi- Ḥu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>7</td>
-                                            <td><p class ="arabic_center">خ</p></td>
-                                            <td>Kha’</td>
-                                            <td>KH</td>
-                                            <td>Kha-Khi-Khu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>8</td>
-                                            <td><p class ="arabic_center">د</p></td>
-                                            <td>Dal</td>
-                                            <td>D</td>
-                                            <td>Da-Di-Du</td>
-                                        </tr>
-                                        <tr>
-                                            <td>9</td>
-                                            <td><p class ="arabic_center">ذ</p></td>
-                                            <td>Dzal</td>
-                                            <td>DZ</td>
-                                            <td>Dza-Dzi-Dzu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10</td>
-                                            <td><p class ="arabic_center">ر</p></td>
-                                            <td>Ra’</td>
-                                            <td>R</td>
-                                            <td>Ra-Ri-Ru</td>
-                                        </tr>
-                                        <tr>
-                                            <td>11</td>
-                                            <td><p class ="arabic_center">ز</p></td>
-                                            <td>Za’</td>
-                                            <td>Z</td>
-                                            <td>Za-Zi-Zu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>12</td>
-                                            <td><p class ="arabic_center">س</p></td>
-                                            <td>Sin</td>
-                                            <td>S</td>
-                                            <td>Sa-Si-Su</td>
-                                        </tr>
-                                        <tr>
-                                            <td>13</td>
-                                            <td><p class ="arabic_center">ش</p></td>
-                                            <td>Syin</td>
-                                            <td>SY</td>
-                                            <td>Sya-Syi-Syu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>14</td>
-                                            <td><p class ="arabic_center">ص</p></td>
-                                            <td>Shad</td>
-                                            <td>SH</td>
-                                            <td>Sha-Shi-Shu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>15</td>
-                                            <td><p class ="arabic_center">ض</p></td>
-                                            <td>Dha’</td>
-                                            <td>DH</td>
-                                            <td>Dha-Dhi-Dhu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>16</td>
-                                            <td><p class ="arabic_center">ط</p></td>
-                                            <td>Tha’</td>
-                                            <td>TH</td>
-                                            <td>Tha-Thi-Thu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>17</td>
-                                            <td><p class ="arabic_center">ظ</p></td>
-                                            <td>Zha’</td>
-                                            <td>ZH</td>
-                                            <td>Zha-Zhi-Zhu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>18</td>
-                                            <td><p class ="arabic_center">ع</p></td>
-                                            <td>‘Ain</td>
-                                            <td>‘ ‘ untuk (‘) tandapetik  dilanjutkan  dengan huruf vokal  a,  I, atau u jika huruftersebut  berharakat</td>
-                                            <td>‘a-‘i-‘u</td>
-                                        </tr>
-                                        <tr>
-                                            <td>19</td>
-                                            <td><p class ="arabic_center">غ</p></td>
-                                            <td>Ghain</td>
-                                            <td>GH</td>
-                                            <td>F</td>
-                                        </tr>
-                                        <tr>
-                                            <td>20</td>
-                                            <td><p class ="arabic_center">ف</p></td>
-                                            <td>Fa’</td>
-                                            <td>F</td>
-                                            <td>Fa-Fi-Fu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>21</td>
-                                            <td><p class ="arabic_center">ق</p></td>
-                                            <td>Qaf</td>
-                                            <td>Q</td>
-                                            <td>Qa-Qi-Qu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>22</td>
-                                            <td><p class ="arabic_center">ك</p></td>
-                                            <td>Kaf</td>
-                                            <td>K</td>
-                                            <td>Ka-Ki-Ku</td>
-                                        </tr>
-                                        <tr>
-                                            <td>23</td>
-                                            <td><p class ="arabic_center">ل</p></td>
-                                            <td>Lam</td>
-                                            <td>L</td>
-                                            <td>La-Li-Lu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>24</td>
-                                            <td><p class ="arabic_center">م</p></td>
-                                            <td>Mim</td>
-                                            <td>M</td>
-                                            <td>Ma-Mi-Mu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>25</td>
-                                            <td><p class ="arabic_center">ن</p></td>
-                                            <td>Nun</td>
-                                            <td>N</td>
-                                            <td>Na-Ni-Nu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>26</td>
-                                            <td><p class ="arabic_center">و</p></td>
-                                            <td>Waw</td>
-                                            <td>W</td>
-                                            <td>Wa-Wi-Wu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>27</td>
-                                            <td><p class ="arabic_center">ه</p></td>
-                                            <td>Ha’</td>
-                                            <td>H</td>
-                                            <td>Ha-Hi-Hu</td>
-                                        </tr>
-                                        <tr>
-                                            <td>28</td>
-                                            <td><p class ="arabic_center">لا</p></td>
-                                            <td>Lam Alif</td>
-                                            <td>L</td>
-                                            <td>La (‘huruf dengan bunyi panjang’)</td>
-                                        </tr>
-                                        <tr>
-                                            <td>29</td>
-                                            <td><p class ="arabic_center">ء</p></td>
-                                            <td>Hamzah</td>
-                                            <td>A, I, U sesuai dengan harakat, setelahnya ditambahkan tanda petik (‘)</td>
-                                            <td>A-I-U</td>
-                                        </tr>
-                                        <tr>
-                                            <td>30</td>
-                                            <td><p class ="arabic_center">ي</p></td>
-                                            <td>Ya’</td>
-                                            <td>Y</td>
-                                            <td>Ya-Yi-Yu</td>
-                                        </tr>
-                                        
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Isi konten disini -->
                 </section>
             </div>
 
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Iqro</h1>
                 </div>
@@ -391,7 +176,7 @@
                         <i class="fa fa-align-center" aria-hidden="true"><img src="img/iqro1.5.jpg" alt="" width="500px" height="750px"></i>
                         <i class="fa fa-align-center" aria-hidden="true"><img src="img/iqro1.4.jpg" alt="" width="500px" height="750px"></i>s
                     </div>
-                </section>
+                </section> -->
             </div>
             <!-- End of Content -->
 
