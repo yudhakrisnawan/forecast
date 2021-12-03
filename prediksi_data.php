@@ -35,8 +35,8 @@ include("backend/backend_perkiraan.php");
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <img src="img/dashboard.png" width="30px" height="30px">
+                <div class="sidebar-brand-icon">
+                    <img src="gambar/logo.png" width="30px" height="30px">
                 </div>
                 <div class="sidebar-brand-text mx-3">FORECASTING</div>
             </a>

@@ -39,6 +39,7 @@
                                                 Login
                                             </button>
                                         </form>
+
                                         <?php
                                             if(isset ($_REQUEST['login'])){
                                                 include("connection/koneksi.php");
@@ -66,7 +67,7 @@
                                                     header("location:beranda.php");
                                                 }
                                             }
-                                            ?>
+                                            ?> 
                                         <br>
                                     </div>
                                 </div>

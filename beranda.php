@@ -28,8 +28,8 @@ include("backend/koneksi.php");
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="beranda.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <img src="img/dashboard.png" width="30px" height="30px">
+                <div class="sidebar-brand-icon">
+                    <img src="gambar/logo.png" width="30px" height="30px">
                 </div>
                 <div class="sidebar-brand-text mx-3">FORECASTING</div>
             </a>
@@ -99,7 +99,8 @@ include("backend/koneksi.php");
                 <section class="mar-top--x-3 mar-bottom--x-5">
                     <div class="container">
                         <center>
-                            <h1 class="h3 mb-0 text-gray-800">SELAMAT DATANG APLIKASI FORECASTING!</h1>
+                            <h1 class="h3 mb-0 text-gray-800">SELAMAT DATANG DI WEBSITE FORECASTING SIMPLE REGRESI LINIER
+                            </h1>
                         </center>
                     </div>
                     <br>
@@ -107,13 +108,10 @@ include("backend/koneksi.php");
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/beranda2.png" class="d-block w-100" alt="gambar">
+                                <img src="gambar/beranda.png" class="d-block w-100" alt="gambar">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/beranda3.png" class="d-block w-100" alt="gambar">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/beranda4.jpeg" class="d-block w-100" alt="gambar">
+                                <img src="gambar/beranda.png" class="d-block w-100" alt="gambar">
                             </div>
                         </div>
                         <a class="carousel-control-prev" role="button" href="#carouselExampleControls" data-slide="prev">
