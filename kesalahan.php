@@ -34,7 +34,7 @@ include("backend/koneksi.php");
                 <div class="sidebar-brand-text mx-3">FORECASTING</div>
             </a>
             <hr class="sidebar-divider my-0">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="beranda.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Beranda</span>
@@ -55,7 +55,7 @@ include("backend/koneksi.php");
                 </a>
             </li>
             <hr class="sidebar-divider my-0">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="kesalahan.php">
                     <i class="fa fa-exclamation-triangle"></i>
                     <span>Kesalahan Peramalan</span>
@@ -101,35 +101,12 @@ include("backend/koneksi.php");
             <!-- Content -->
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Beranda</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Kesalahan Peramalan</h1>
                 </div>
                 <section class="mar-top--x-3 mar-bottom--x-5">
                     <div class="container">
-                        <center>
-                            <h1 class="h3 mb-0 text-gray-800">SELAMAT DATANG DI WEBSITE FORECASTING SIMPLE REGRESI LINIER
-                            </h1>
-                        </center>
-                    </div>
-                    <br>
-                    <div class="container">      
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="gambar/beranda.png" class="d-block w-100" alt="gambar">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="gambar/beranda.png" class="d-block w-100" alt="gambar">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" role="button" href="#carouselExampleControls" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                        <a class="carousel-control-next" role="button" href="#carouselExampleControls" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                    </div>
+                        
+
                 </section>
             </div>
             <!-- End of Content -->

@@ -50,15 +50,22 @@ include("backend/backend_perkiraan.php");
             <hr class="sidebar-divider my-0">
             <li class="nav-item">
                 <a class="nav-link" href="crud_data.php">
-                    <i class="fas fa-fw fa-folder"></i>
+                    <i class="fa fa-plus"></i>
                     <span>CRUD Data</span>
                 </a>
             </li>
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">
                 <a class="nav-link" href="prediksi_data.php">
-                    <i class="fas fa-fw fa-folder"></i>
+                    <i class="fa fa-database"></i>
                     <span>Prediksi Data</span>
+                </a>
+            </li>
+            <hr class="sidebar-divider my-0">
+            <li class="nav-item">
+                <a class="nav-link" href="kesalahan.php">
+                    <i class="fa fa-exclamation-triangle"></i>
+                    <span>Kesalahan Peramalan</span>
                 </a>
             </li>
             <br>
